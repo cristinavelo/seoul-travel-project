@@ -32,9 +32,19 @@ body {
   margin: 30px 0;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
 .img-responsive-1 {
   width: 185px;
   height: 185px;
+  width: 100%;
 }
 
 .card-body {
@@ -233,6 +243,14 @@ footer p {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 
   section {
